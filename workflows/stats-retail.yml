@@ -2,8 +2,7 @@ name: Daily retail stats watcher
 
 on:
   schedule:
-    - cron: "0 8 * * *"
-      timezone: "Asia/Shanghai"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
